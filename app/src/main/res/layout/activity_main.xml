@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.androidquizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/line_spacing"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="Who was not one of the inventors of Android?"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/question_text_size" />
+
+        <RadioGroup
+            android:id="@+id/question_one_answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/line_spacing"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+            <RadioButton
+                android:id="@+id/question_one_wrong_answer_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rich Miner" />
+
+            <RadioButton
+                android:id="@+id/question_one_wrong_answer_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Andy Rubin" />
+
+            <RadioButton
+                android:id="@+id/question_one_correct_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Larry Page" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/line_spacing"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="Which of the following are real Android version names?"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/question_text_size" />
+
+        <CheckBox
+            android:id="@+id/question_two_lollipop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="Lollipop" />
+
+        <CheckBox
+            android:id="@+id/question_two_fruitcake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="Fruitcake" />
+
+        <CheckBox
+            android:id="@+id/question_two_eclair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="Eclair" />
+
+        <CheckBox
+            android:id="@+id/question_two_donut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/line_spacing"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="Donut" />
+
+        <TextView
+            android:id="@+id/question_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/line_spacing"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="In what name is Android 6.0 known for?"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/question_text_size" />
+
+        <EditText
+            android:id="@+id/question_three_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/line_spacing"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin" />
+
+        <TextView
+            android:id="@+id/question_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/line_spacing"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="In what year did Android Cupcake released?"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/question_text_size" />
+
+        <EditText
+            android:id="@+id/question_four_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/line_spacing"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin" />
+
+        <TextView
+            android:id="@+id/question_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/line_spacing"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="Which one was the first comercially available smartphone running Android?"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/question_text_size" />
+
+        <RadioGroup
+            android:id="@+id/question_five_answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/line_spacing"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+            <RadioButton
+                android:id="@+id/question_five_correct_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HTC Dream" />
+
+            <RadioButton
+                android:id="@+id/question_five_wrong_answer_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HTC Nexus One" />
+
+            <RadioButton
+                android:id="@+id/question_five_wrong_answer_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android One" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:onClick="checkAnswers"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</ScrollView>
